@@ -1,7 +1,7 @@
 notas = []
 
 entrada_notas = input("Digite as notas: ")
-notas_str = entrada_notas.split()
+notas_str = entrada_notas.split(',')
 
 for nota in notas_str:
     notas.append(int(nota))
