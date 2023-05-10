@@ -1,4 +1,4 @@
-codigo_funcionario = 'BR11000X'#input("Digite o identificador do funcionario (Exemplo: BR0000X): ")
+codigo_funcionario = input("Digite o identificador do funcionario (Exemplo: BR0000X): ")
 
 codigo_numeros = codigo_funcionario[2:-1]
 
