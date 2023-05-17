@@ -23,6 +23,7 @@ largura = float(input("Digite a largura do aquario (cm): "))
 temperatura_desejada = float(input("Digite a temperatura desejada para o aquario: "))
 temperatura_ambiente = float(input("Digite a temperatura ambiente: "))
 
+breakpoint()
 volume_aquario = volume(comprimento, altura, largura)
 potencia = potencia_termostato(volume_aquario, temperatura_desejada, temperatura_ambiente)
 filtragem = qtd_filtragem(volume_aquario)

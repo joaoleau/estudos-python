@@ -34,5 +34,6 @@ def situacao_individuo (imc):
 valor_imc = imc(dados_individuo['altura'], dados_individuo['peso'])
 
 print('Seu IMC é de:', valor_imc)
+breakpoint()
 print('Classificacao: ',classificacao(valor_imc))
 print('Situacao do individuo: ',situacao_individuo(valor_imc))
