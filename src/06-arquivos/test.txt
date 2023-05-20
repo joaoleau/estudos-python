@@ -1,0 +1,11 @@
+Python
+JS
+Java
+C#
+Node
+Assembly
+R
+SQL
+C
+COBOL
+C++
