@@ -28,7 +28,7 @@ class Retangulo:
             raise ValueError("Altura deve ser maior que 0")
         self._altura = value
 
-    @classmethod #Sempre passar cls(Retangulo) qunado usar @classmethod
+    @classmethod #Sempre passar cls(Retangulo) quando usar @classmethod
     def from_list(cls, lista):
         return cls(lista[0], lista[1])
     
