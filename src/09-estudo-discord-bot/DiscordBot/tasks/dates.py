@@ -6,7 +6,7 @@ class Dates(commands.Cog):
     def __init__(self, bot):
        self.bot = bot
 
-    @tasks.loop(seconds=10)
+    @tasks.loop(minutes=10)
     async def current_time(self):
         now = datetime.datetime.now()
         now = now.strftime("%d/%m/%Y às %H:%M:%S")

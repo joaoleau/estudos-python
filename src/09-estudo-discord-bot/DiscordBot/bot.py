@@ -10,9 +10,10 @@ bot = commands.Bot(intents=intents, command_prefix="!")
 
 @bot.event
 async def on_ready():
+    print(f"Estou pronto! Estou conectado como {bot.user}")
     await load_cogs(bot)
     await bot.get_cog('Dates').current_time.start()
-    print(f"Estou pronto! Estou conectado como {bot.user}")
+    
 
 async def load_cogs(bot):
     for file in os.listdir("src/09-estudo-discord-bot/DiscordBot/commands"):
