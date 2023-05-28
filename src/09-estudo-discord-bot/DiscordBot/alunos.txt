@@ -1,3 +1,6 @@
 SP1000,Joao Silva,joao@gmail.com 
 SP2000,Jorge Silva,jorgea@gmail.com 
 SP3000,Marcia Silva,marcia@gmail.com 
+SP9999,Malcolm Teixeira,malclm@gmail.com 
+SP8000,Gui Silva,gui@hotmai.com 
+SP9000,Gui Silva,guuuui@hotmai.com 
