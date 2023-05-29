@@ -5,6 +5,7 @@ from discord import app_commands
 import os
 MY_GUILD = discord.Object(id=1110650990320963664)
 
+
 intents = discord.Intents.default()
 intents.message_content = True
 
@@ -29,7 +30,6 @@ async def load_cogs(bot):
             await bot.load_extension(f"commands.{cog}")
     await bot.load_extension("tasks.dates")
     await bot.load_extension("manager")
-
 
 TOKEN = config("TOKEN")
 bot.run(TOKEN)
