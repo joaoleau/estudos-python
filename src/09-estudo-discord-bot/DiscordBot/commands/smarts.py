@@ -165,16 +165,5 @@ class Smarts(commands.Cog):
             with open("D:/Faculdade/VisLab/estudos_python/src/09-estudo-discord-bot/DiscordBot/alunos.pdf", "rb") as file:
                 await interaction.response.send_message(file=discord.File(file, filename="alunos.pdf"))
 
-
-            
-            # Deu certo porra
-            # async with aiohttp.ClientSession() as session:
-            #     await create_pdf()
-
-            #     # Abrir o arquivo PDF gerado
-            #     with open("src/09-estudo-discord-bot/DiscordBot/alunos.pdf", "rb") as file:
-            #         # Enviar o arquivo usando a webhook
-            #         await session.post(webhook_url, data={"file": file})
-
 async def setup(bot):
     await bot.add_cog(Smarts(bot), guilds=[MY_GUILD])
